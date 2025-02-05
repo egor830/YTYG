@@ -1,0 +1,61 @@
+.nazvaendsteam {
+  display: flex;
+}
+.fon{
+    height: 737PX;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right: 0PX;
+    background-image: url(foto/FON1.png);
+    
+}
+.nazva {
+    margin-right: 300px; /* Добавляем отступ между текстами */
+   
+}
+
+.foto {
+    height: 50px;
+    width: 100px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+}
+
+
+.seti {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 650px;
+    height: 30px;
+}
+
+
+
+
+
+.steam {
+    color: #6d0564;
+    background-color: #44023d;
+    height: 40px;
+}
+
+.keisi {
+    color: #600457;
+    margin-top: 100px;
+    font-size: xx-large;
+    text-align: center;
+}
+
+
+
+.kilowat {
+    margin-left: 300px;
+    
+}
+
+.bravo {
+    margin-left: 450px;
+}
