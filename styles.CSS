@@ -1,0 +1,99 @@
+body{
+  background-image: url(foto/FON1.png);
+}
+.nazvaendsteam {
+  display: flex;
+}
+.fon{
+  background-image: url(foto/FON1.png);
+    height: 737PX;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right: 0PX;
+    
+    
+}
+.nazva {
+    margin-right: 300px; /* Добавляем отступ между текстами */
+   
+}
+
+.foto {
+    height: 50px;
+    width: 100px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+}
+
+
+.seti {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 400px;
+    height: 30px;
+}
+
+
+.kilowat {
+    margin-left: 300px;
+}
+
+.bravo {
+    margin-left: 450px;
+}
+
+.registr {
+  color: #ec27e9;
+  
+}
+
+.button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin-left: 700px;
+    margin-top: 100px;
+  }
+  
+  .button {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #f10ba8;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+    
+    
+  }
+  
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+  }
+
+
